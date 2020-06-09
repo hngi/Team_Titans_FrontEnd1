@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="public/lib/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="public/lib/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="public/lib/fontawesome/css/solid.css" rel="stylesheet">
+    <link href="public/lib/fontawesome/css/svg-with-js.css" rel="stylesheet">
+    <link href="public/lib/fontawesome/css/all.css" rel="stylesheet">
+    <link href="public/lib/fontawesome/css/regular.css" rel="stylesheet">
+    <link href="public/lib/fontawesome/css/v4-shims.css" rel="stylesheet">
+
+    <!-- I link the main.css file so that once you edit that one, the nav-bar on this page will also have the effect--> 
+    <link href="public/dist/css/main.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="public/dist/css/contact.css">
+    
+    <title>Contact Us | ITOJU Hotel</title>
+</head>
+<body>
+    <!-- Previous NavBar I made
+    You can check it via https://aphatheology.github.io/Itoju-Hotel/contactus.html
+         <header>
+        <div class="topmost-header">
+            <h2>ITOJU</h2>
+            <div>
+                <span><i class="fa fa-user"></i></span>
+                <a href="#" class="book-now">BOOK NOW</a>
+            </div>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="roomrate.html">Rooms</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Facilities</a></li>
+                <li><a href="#" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header> -->
+
+    <header class="desktop-nav show-desktop">
+        <div class="top-navbar">
+            <div class="spacer"></div>
+            <div class="top-navbar__content">
+                <div class="title">
+                    <h2>ITOJU</h2>
+                </div>
+                <div class="float-right">
+                    <span>
+                        <i class="fa fa-user"></i>
+                    </span>
+                    <button class="button-primary">BOOK NOW</button>
+                </div>
+            </div>
+        </div>
+        <div class="main-navbar">
+            <!-- <h3>fkkdk</h3> -->
+            <div class="main-navbar__content">
+                <ul>
+                    <li class="desktop-li"><a href="index.html">Home</a></li>
+                    <li class="desktop-li"><a href="#">Rooms</a></li>
+                    <li class="desktop-li"><a href="#">About</a></li>
+                    <li class="desktop-li"><a href="#">Facilities</a></li>
+                    <li class="desktop-li"><a class="active" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <header class="mobile-nav hide-desktop">
+        <div class="top-navbar">
+            <div class="top-navbar__content">
+                <div class="title">
+                    <h2>ITOJU</h2>
+                </div>
+                <div class="hamburger hide-desktop" id="hamburger">
+                    <span class="hamburger__stick" id="hamburger__stick"></span>
+                </div>
+                <!-- <span>
+                    <i class="fa fa-user"></i>
+                </span> -->
+                
+            </div>
+        </div>
+        <div class="main-navbar" id="mobile-nav">
+            <!-- <h3>fkkdk</h3> -->
+            <div class="devugo-navbar__content">
+                <button class="button-primary" id="book-now__btn">BOOK NOW</button>
+                <ul>
+                    <li class="mobile-li"><a href="index.html">Home</a></li>
+                    <li class="mobile-li"><a href="#">Rooms</a></li>
+                    <li class="mobile-li"><a href="#">About</a></li>
+                    <li class="mobile-li"><a href="#">Facilities</a></li>
+                    <li class="mobile-li"><a class="active" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+<!-- Main content of Contact Page Made by @Ademi -->
+    <main>
+        <section class="image">
+            <img src="https://res.cloudinary.com/adenike/image/upload/v1591627696/hotel%20-%20itoju/question-image_sqlonf.png" alt="illustrations asking questions">
+        </section>
+
+        <section class="contact-us">
+
+            <h1>Contact Us</h1>
+            <p id="how">How would you like to contact us? by email here:</p>
+            <h2 class="email-address"><a href="mailto:#">hello.itoju@gmail.com</a></h2>
+            <p id="our-form">or fill this form</p>
+            <form action="" method="POST">
+                <div class="fill">
+                    <label for="name">Full Name</label>
+                    <input type="text" name="full_name" id="name" placeholder="Enter your name here">
+                </div>
+                <div class="fill">
+                    <label for="email">Email Address</label>
+                    <input type="email" name="user_mail" id="email" placeholder="Enter your email">
+                </div>
+                <div class="fill">
+                    <label for="message">Your Message</label>
+                    <textarea name="user_message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                </div>
+                <div class="button">
+                   <button class="btn" value="submit">Submit</button>
+                </div>  
+            </form>
+        </section>
+    </main>
+
+
+    <!-- Footer Made by @Aphatheology -->
+    <footer>
+        <section class="footer-links">
+            <div>
+                <h3>ITOJU</h3>
+                <p>2, Crescent Road, off galadim, Abuja</p>
+                <p>+62-812-7313-4321</p>
+            </div>
+
+            <div class="main-links">
+                <h3>About Us</h3>
+                <a href="#">About</a>
+                <a href="">What We Do</a>
+                <a href="">Project</a>
+                <a href="">How It Work With Us</a>
+            </div>
+
+            <div class="main-links">
+                <h3>Follow Us</h3>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Youtube</a>
+            </div>
+
+            <div>
+                <h3>Additional Information</h3>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">How does it work</a>
+                <a href="#">Frequently Asked Questions</a>
+            </div>
+        </section>
+
+        <hr>
+
+        <h2>ITOJU</h2>
+        <p class="copyright">2019 © ITOJU. All rights reserved.</p>
+
+    </footer>
+
+    <script src="public/dist/js/devugo-navbar.js"></script>
+
+</body>
+</html>
