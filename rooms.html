@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="public/lib/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="public/lib/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="public/lib/fontawesome/css/solid.css" rel="stylesheet">
+    <link href="public/lib/fontawesome/css/svg-with-js.css" rel="stylesheet">
+    <link href="public/lib/fontawesome/css/all.css" rel="stylesheet">
+    <link href="public/lib/fontawesome/css/regular.css" rel="stylesheet">
+    <link href="public/lib/fontawesome/css/v4-shims.css" rel="stylesheet">
+
+    <!-- I link the main.css file so that once you edit that one, the nav-bar on this page will also have the effect--> 
+    <link href="public/dist/css/main.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="public/dist/css/rooms.css">
+    
+    <title>Room Rates | ITOJU Hotel</title>
+</head>
+<body>
+
+    <header class="desktop-nav show-desktop">
+        <div class="top-navbar">
+            <div class="spacer"></div>
+            <div class="top-navbar__content">
+                <div class="title">
+                    <h2>ITOJU</h2>
+                </div>
+                <div class="float-right">
+                    <span>
+                        <i class="fa fa-user"></i>
+                    </span>
+                    <button class="button-primary">BOOK NOW</button>
+                </div>
+            </div>
+        </div>
+        <div class="main-navbar">
+            <!-- <h3>fkkdk</h3> -->
+            <div class="main-navbar__content">
+                <ul>
+                    <li class="desktop-li"><a href="index.html">Home</a></li>
+                    <li class="desktop-li"><a class="active" href="#">Rooms</a></li>
+                    <li class="desktop-li"><a href="#">About</a></li>
+                    <li class="desktop-li"><a href="#">Facilities</a></li>
+                    <li class="desktop-li"><a  href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <header class="mobile-nav hide-desktop">
+        <div class="top-navbar">
+            <div class="top-navbar__content">
+                <div class="title">
+                    <h2>ITOJU</h2>
+                </div>
+                <div class="hamburger hide-desktop" id="hamburger">
+                    <span class="hamburger__stick" id="hamburger__stick"></span>
+                </div>
+                <!-- <span>
+                    <i class="fa fa-user"></i>
+                </span> -->
+                
+            </div>
+        </div>
+        <div class="main-navbar" id="mobile-nav">
+            <!-- <h3>fkkdk</h3> -->
+            <div class="devugo-navbar__content">
+                <button class="button-primary" id="book-now__btn">BOOK NOW</button>
+                <ul>
+                    <li class="mobile-li"><a href="index.html">Home</a></li>
+                    <li class="mobile-li"><a class="active" href="#">Rooms</a></li>
+                    <li class="mobile-li"><a href="#">About</a></li>
+                    <li class="mobile-li"><a href="#">Facilities</a></li>
+                    <li class="mobile-li"><a  href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="img-after-nav-bar">
+        <img src="https://res.cloudinary.com/aphatheology/image/upload/v1591691612/rooms_rate_hero_kvafe4.png" alt="">
+    </section>
+
+
+    
+
+    <!-- <nav>
+        <ul>
+            <li><a href="#">Deluxe<span class="nav-span">Room</span></a></li> 
+            <li><a href="#">Junior<span class="nav-span">Room</span></a></li> 
+            <li><a href="#">Executive<span class="nav-span">Room</span></a></li> 
+            <li><a href="#">Balcony<span class="nav-span">Room</span></a></li> 
+        </ul>
+    </nav> -->
+    <hr />
+    <section class="room-section"> 
+        <div class="room1">
+            <article class="details">
+                <img src="public/images/room1.png"/>
+                <div class="room-info">
+                    <h4>Golden Tulip Suite</h4>
+                    <span class="star">
+                        4<i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <ul class="fa-ul freebies">
+                    <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>Free wi-fi</li>
+                    <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>2 guests</li>
+                    <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>indoor pool</li>
+                </ul>
+                <div class="room-info">
+                    <button class="booknow" type="submit">Book Now</button>
+                    <P class="price"><span>N</span>20,000</P>
+                </div>
+            </article>
+        </div>
+        <div class="room2">
+            <article class="details">
+                <img src="public/images/room2.png"/>
+                <div class="room-info">
+                    <h4>Golden Tulip Suite</h4>
+                    <span class="star">
+                        4<i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <ul class="fa-ul freebies">
+                    <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>Free wi-fi</li>
+                    <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>2 guests</li>
+                    <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>indoor pool</li>
+                </ul>
+                <div class="room-info">
+                    <button class="booknow" type="submit">Book Now</button>
+                    <P class="price"><span>N</span>20,000</P>
+                </div>
+            </article>
+        </div>
+        <div class="room3">
+            <article class="details">
+                <img src="public/images/room3.png"/>
+                <div class="room-info">
+                    <h4>Golden Tulip Suite</h4>
+                    <span class="star">
+                        4<i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <ul class="fa-ul freebies">
+                    <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>Free wi-fi</li>
+                    <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>2 guests</li>
+                    <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>indoor pool</li>
+                </ul>
+                <div class="room-info">
+                    <button class="booknow" type="submit">Book Now</button>
+                    <P class="price"><span>N</span>20,000</P>
+                </div>
+            </article>
+        </div>
+        <div class="room4">
+            <article class="details">
+                <img src="public/images/room4.png"/>
+                <div class="room-info">
+                    <h4>Golden Tulip Suite</h4>
+                    <span class="star">
+                        4<i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <ul class="fa-ul freebies">
+                    <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>Free wi-fi</li>
+                    <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>2 guests</li>
+                    <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>indoor pool</li>
+                </ul>
+                <div class="room-info">
+                    <button class="booknow" type="submit">Book Now</button>
+                    <P class="price"><span>N</span>20,000</P>
+                </div>
+            </article>
+        </div>
+        <div class="room5">
+            <article class="details">
+                <img src="public/images/room5.png"/>
+                <div class="room-info">
+                    <h4>Golden Tulip Suite</h4>
+                    <span class="star">
+                        4<i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <ul class="fa-ul freebies">
+                    <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>Free wi-fi</li>
+                    <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>2 guests</li>
+                    <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>indoor pool</li>
+                </ul>
+                <div class="room-info">
+                    <button class="booknow" type="submit">Book Now</button>
+                    <P class="price"><span>N</span>20,000</P>
+                </div>
+            </article>
+        </div>
+        <div class="room6">
+            <article class="details">
+                <img src="public/images/room6.png"/>
+                <div class="room-info">
+                    <h4>Golden Tulip Suite</h4>
+                    <span class="star">
+                        4<i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <ul class="fa-ul freebies">
+                    <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>Free wi-fi</li>
+                    <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>2 guests</li>
+                    <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>indoor pool</li>
+                </ul>
+                <div class="room-info">
+                    <button class="booknow" type="submit">Book Now</button>
+                    <P class="price"><span>N</span>20,000</P>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <section class="footer-links">
+            <div>
+                <h3>ITOJU</h3>
+                <p>2, Crescent Road, off galadim, Abuja</p>
+                <p>+62-812-7313-4321</p>
+            </div>
+
+            <div class="main-links">
+                <h3>About Us</h3>
+                <a href="#">About</a>
+                <a href="">What We Do</a>
+                <a href="">Project</a>
+                <a href="">How It Work With Us</a>
+            </div>
+
+            <div class="main-links">
+                <h3>Follow Us</h3>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Youtube</a>
+            </div>
+
+            <div>
+                <h3>Additional Information</h3>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">How does it work</a>
+                <a href="#">Frequently Asked Questions</a>
+            </div>
+        </section>
+
+        <hr>
+
+        <h2>ITOJU</h2>
+        <p class="copyright">2019 © ITOJU. All rights reserved.</p>
+
+    </footer>
+
+    <script src="public/dist/js/devugo-navbar.js"></script>
+
+
+</body>
+</html>
