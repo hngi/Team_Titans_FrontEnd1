@@ -79,6 +79,7 @@ img{
             'h4 h4 star star'
             'freebies freebies freebies freebies'
             'booknow booknow price price';
+    margin: 25px 0;
 }
 
 h4{
@@ -367,7 +368,7 @@ footer p.copyright {
     text-align: left;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 767px) {
     .mobile-nav {
         z-index: 25;
         position: relative;
